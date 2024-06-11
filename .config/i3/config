@@ -29,8 +29,6 @@ set $right l
 set $monitorLeft DisplayPort-2
 set $monitorRight HDMI-A-0
 
-# colors? stole from tinted-thjeming/base16-i3
-
 
 ########################
 ### STARTUP COMMANDS ###
@@ -39,7 +37,7 @@ set $monitorRight HDMI-A-0
 # XDG Startup .desktop files
 exec --no-startup-id dex --autostart --environment i3
 
-# xss-lock ??? (i3 came with this automaticallyt
+# xss-lock ??? (i3 came with this automatically)
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Network Manager
