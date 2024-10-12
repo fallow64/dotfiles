@@ -6,7 +6,7 @@ This is not a complete setup, but rather just configuration options for programs
 For example, there might be a `.config/i3/` folder aswell as a `.config/sway/` folder.
 
 Once you have cloned this repository to a directory like `~/dotfiles` and install Stow,
-run `stow .` to setup the dotfiles.
+`cd` into the folder, and run `stow .` to setup the symlinks.
 
 ## Stow Installation
 
